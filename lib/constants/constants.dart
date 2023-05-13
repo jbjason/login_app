@@ -17,7 +17,7 @@ TextStyle get gettextColor => TextStyle(
           end: Alignment.centerRight,
           colors: colors,
         ).createShader(
-          const Rect.fromLTWH(0, 0, 400, 100),
+          const Rect.fromLTWH(0, 0, 350, 100),
         ),
     );
 
@@ -32,8 +32,13 @@ const gradient = LinearGradient(
   end: Alignment.centerRight,
   colors: colors,
 );
-const colors = [
-  Color(0xFFAE3370),
-  Color(0xFF913A84),
-  Color(0xFF1A92D2),
+const colors = [Colors.pink, Color(0xFFBF1EF8), Color(0xFF5BA7FB)];
+
+const buttonShadow = [
+  BoxShadow(
+    color: backSecondary,
+    spreadRadius: 2,
+    blurRadius: 5,
+    offset: Offset(5, 5),
+  ),
 ];
