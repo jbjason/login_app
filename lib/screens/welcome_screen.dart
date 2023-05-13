@@ -17,12 +17,12 @@ class WelcomeScreen extends StatelessWidget {
             ),
           ),
           Positioned(
-            left: -50,
-            right: -50,
-            bottom: -65,
+            left: -100,
+            right: -100,
+            bottom: -75,
             height: size.height * .6,
             child:
-                Image.asset('assets/images/home_img1.png', fit: BoxFit.cover),
+                Image.asset('assets/images/home_img1.png', fit: BoxFit.contain),
           ),
           Positioned(
             left: 0,
